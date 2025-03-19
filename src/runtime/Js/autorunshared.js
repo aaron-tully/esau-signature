@@ -170,7 +170,7 @@ function get_template_A_info(user_info) {
   const logoFileName = "sample-logo.png";
   let str = "";
 
-  str += '<div style="font-family: \'Aptos\', Verdana, sans-serif; font-size: 12px;">';
+  str += '<div style="font-family: \'Aptos\', Verdana, sans-serif; font-size: 12px !important;">';
   str +=   "<br>";
   str +=   is_valid_data(user_info.greeting) ? `<div style='margin-bottom: 10px;'>${user_info.greeting},</div>` : "";
   str +=   "<div><strong style='color: #F6688A;'>" + user_info.name + "</strong>";
@@ -206,7 +206,8 @@ function get_template_A_info(user_info) {
  */
 function get_template_B_info(user_info) {
   let str = "";
-  str += "<div style='font-family: 'Aptos', Verdana, sans-serif; font-size: 12px;'>";
+
+  str += '<div style="font-family: \'Aptos\', Verdana, sans-serif; font-size: 11px !important;">';
   str +=   "<br>";
   str +=   is_valid_data(user_info.greeting) ? `<div style='margin-bottom: 10px;'>${user_info.greeting},</div>` : "";
   str +=   "<div><strong style='color: #F6688A;'>" + user_info.name + "</strong>";
