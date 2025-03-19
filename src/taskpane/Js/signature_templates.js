@@ -6,8 +6,8 @@ function get_template_A_str(user_info)
   let str = "";
 
   str += "<div>";
-  str +=   is_valid_data(user_info.greeting) ? `${user_info.greeting},<br>` : "";
-  str +=   "<div><strong style='color: #FF4370;>" + user_info.name + "</strong>";
+  str +=   is_valid_data(user_info.greeting) ? `<div style='margin-bottom: 10px;'>${user_info.greeting},</div>` : "";
+  str +=   "<div><strong style='color: #FF4370;'>" + user_info.name + "</strong>";
   str +=   is_valid_data(user_info.pronoun) ? ` ${user_info.pronoun}` : "";
   str +=   "</div>";
   str +=   is_valid_data(user_info.job) ? `<div>${user_info.job}</div>` : "";
@@ -16,8 +16,7 @@ function get_template_A_str(user_info)
   str +=   is_valid_data(user_info.phone) ? `<div>${user_info.phone}</div>` : "";
   str +=   is_valid_data(user_info.department) ? `<div>${user_info.department}</div>` : "";
   str +=   is_valid_data(user_info.location) ? `<div>${user_info.location}</div>` : "";
-  str +=   "<a href='https://www.endemolshine.com.au' target='_blank'>Endemol Shine Australia</a>";
-  str +=   "<br>";
+  str +=   "<div style='margin-bottom: 10px;'><a href='https://www.endemolshine.com.au' target='_blank'>Endemol Shine Australia</a></div>";
   str +=   "<img src='https://aarontully.github.io/ESA-Signature-Addin/assets/sig_image.png' alt='Logo' />";
   str += "</div>";
 
@@ -29,14 +28,13 @@ function get_template_A_str(user_info)
 function get_template_B_str(user_info)
 {
   let str = "";
-  if (is_valid_data(user_info.greeting)) {
-    str += user_info.greeting + "<br>";
-  }
-
-  str += "<br>";
-  str += `<div style='color: #FF4370;'>${user_info.name}</div>`;
+  str += "<div>";
+  str +=   is_valid_data(user_info.greeting) ? `${user_info.greeting},<br>` : "";
+  str +=   "<div><strong style='color: #FF4370;>" + user_info.name + "</strong>";
+  str +=   is_valid_data(user_info.pronoun) ? ` ${user_info.pronoun}` : "";
+  str +=   "</div>";
   str +=   is_valid_data(user_info.job) ? `<div>${user_info.job}</div>` : "";
-  str += "<br>";
+  str +=  "/div>";
 
   return str;
 }
