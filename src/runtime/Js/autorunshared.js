@@ -169,12 +169,9 @@ function get_command_id() {
 function get_template_A_info(user_info) {
   const logoFileName = "sample-logo.png";
   let str = "";
-  if (is_valid_data(user_info.greeting))
-  {
-    str += user_info.greeting + "," + "<br/>";
-  }
 
   str += "<div>";
+  str +=   is_valid_data(user_info.greeting) ? `${user_info.greeting},<br/>` : "";
   str +=   "<div><strong style='color: #FF4370;>" + user_info.name + "</strong>";
   str +=   is_valid_data(user_info.pronoun) ? ` ${user_info.pronoun}` : "";
   str +=   "</div>";
@@ -213,7 +210,10 @@ function get_template_B_info(user_info) {
     str += user_info.greeting + "<br/>";
   }
 
-  str += user_info.name;
+  str += "<br/>";
+  str += `<div style='color: #FF4370;>${user_info.name}</div>`;
+  str +=   is_valid_data(user_info.job) ? `<div>${user_info.job}</div>` : "";
+  str += "<br/>";
 
   return {
     signature: str,

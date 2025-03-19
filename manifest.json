@@ -12,8 +12,8 @@
         "full": "Insert your signature with ease."
     },
     "icons": {
-        "outline": "assets/final_logo.png",
-        "color": "assets/final_logo.png"
+        "outline": "assets/icon-80.png",
+        "color": "assets/icon-80.png"
     },
     "accentColor": "#230201",
     "developer": {
@@ -143,15 +143,15 @@
                                             "icons": [
                                                 {
                                                     "size": 16,
-                                                    "url": "https://localhost:3000/assets/final_logo.png"
+                                                    "url": "https://localhost:3000/assets/icon-80.png"
                                                 },
                                                 {
                                                     "size": 32,
-                                                    "url": "https://localhost:3000/assets/final_logo.png"
+                                                    "url": "https://localhost:3000/assets/icon-80.png"
                                                 },
                                                 {
                                                     "size": 80,
-                                                    "url": "https://localhost:3000/assets/final_logo.png"
+                                                    "url": "https://localhost:3000/assets/icon-80.png"
                                                 }
                                             ],
                                             "supertip": {
@@ -201,15 +201,15 @@
                                             "icons": [
                                                 {
                                                     "size": 16,
-                                                    "url": "https://localhost:3000/assets/final_logo.png"
+                                                    "url": "https://localhost:3000/assets/icon-80.png"
                                                 },
                                                 {
                                                     "size": 32,
-                                                    "url": "https://localhost:3000/assets/final_logo.png"
+                                                    "url": "https://localhost:3000/assets/icon-80.png"
                                                 },
                                                 {
                                                     "size": 80,
-                                                    "url": "https://localhost:3000/assets/final_logo.png"
+                                                    "url": "https://localhost:3000/assets/icon-80.png"
                                                 }
                                             ],
                                             "supertip": {

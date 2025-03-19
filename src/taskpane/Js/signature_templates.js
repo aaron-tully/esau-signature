@@ -4,12 +4,9 @@
 function get_template_A_str(user_info)
 {
   let str = "";
-  if (is_valid_data(user_info.greeting))
-  {
-    str += user_info.greeting + "," + "<br/>";
-  }
 
   str += "<div>";
+  str +=   is_valid_data(user_info.greeting) ? `${user_info.greeting},<br/>` : "";
   str +=   "<div><strong style='color: #FF4370;>" + user_info.name + "</strong>";
   str +=   is_valid_data(user_info.pronoun) ? ` ${user_info.pronoun}` : "";
   str +=   "</div>";
@@ -32,12 +29,11 @@ function get_template_A_str(user_info)
 function get_template_B_str(user_info)
 {
   let str = "";
-  if (is_valid_data(user_info.greeting))
-  {
+  if (is_valid_data(user_info.greeting)) {
     str += user_info.greeting + "<br/>";
   }
 
-  str += user_info.name;
+  str += `<div style='color: #FF4370;>${user_info.name}</div>`;
   str +=   is_valid_data(user_info.job) ? `<div>${user_info.job}</div>` : "";
   str += "<br/>";
 

@@ -9,8 +9,8 @@
   <DefaultLocale>en-us</DefaultLocale>
   <DisplayName DefaultValue="ESAU Office Signature Add-in"/>
   <Description DefaultValue="Insert your signature with ease."/>
-  <IconUrl DefaultValue="https://aaron-tully.github.io/esau-signature/assets/final_logo.png"/>
-  <HighResolutionIconUrl DefaultValue="https://aaron-tully.github.io/esau-signature/assets/final_logo.jpg"/>
+  <IconUrl DefaultValue="https://aaron-tully.github.io/esau-signature/assets/icon-80.png"/>
+  <HighResolutionIconUrl DefaultValue="https://aaron-tully.github.io/esau-signature/assets/icon-80.png"/>
   <SupportUrl DefaultValue="https://www.endemolshine.com.au"/>
   <AppDomains>
     <AppDomain>https://www.endemolshine.com.au</AppDomain>
