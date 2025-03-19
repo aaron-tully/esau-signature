@@ -1,3 +1,7 @@
+  body {
+    background-color: #FFFFFF;
+  }
+  
   select {
     top: 617px;
     left: 599px;
@@ -67,6 +71,7 @@
   }
 
   .testBtn{
+    margin-top: 5px;
     position: relative;
     top: -1px;
     left: 17px;
