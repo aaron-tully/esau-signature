@@ -34,7 +34,7 @@ function get_template_B_str(user_info)
   str +=   is_valid_data(user_info.pronoun) ? ` ${user_info.pronoun}` : "";
   str +=   "</div>";
   str +=   is_valid_data(user_info.job) ? `<div>${user_info.job}</div>` : "";
-  str +=  "/div>";
+  str +=  "</div>";
 
   return str;
 }
