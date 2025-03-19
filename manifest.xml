@@ -5,20 +5,20 @@
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="MailApp">
   <Id>{C341AD31-BF7A-4C1D-99F1-D2E5896BEB0A}</Id>
   <Version>1.0</Version>
-  <ProviderName>Contoso</ProviderName>
+  <ProviderName>EndemolShineAustralia</ProviderName>
   <DefaultLocale>en-us</DefaultLocale>
-  <DisplayName DefaultValue="Office Add-ins signature sample"/>
+  <DisplayName DefaultValue="ESAU Office Signature Add-in"/>
   <Description DefaultValue="Insert your signature with ease."/>
-  <IconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/final_logo.png"/>
-  <HighResolutionIconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/final_logo.jpg"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <IconUrl DefaultValue="https://aaron-tully.github.io/esau-signature/assets/final_logo.png"/>
+  <HighResolutionIconUrl DefaultValue="https://aaron-tully.github.io/esau-signature/assets/final_logo.jpg"/>
+  <SupportUrl DefaultValue="https://www.endemolshine.com.au"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://www.endemolshine.com.au</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
-  
+
   <Requirements>
     <Sets DefaultMinVersion="1.1">
       <Set Name="Mailbox" />
@@ -29,7 +29,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/src/taskpane/HTML/editsignature.html"/>
+        <SourceLocation DefaultValue="https://aaron-tully.github.io/esau-signature/src/taskpane/HTML/editsignature.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -122,12 +122,12 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon16x16" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/final_logo.png"></bt:Image>
+          <bt:Image id="Icon16x16" DefaultValue="https://aaron-tully.github.io/esau-signature/assets/icon-80.png"></bt:Image>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="residUrl0" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/src/taskpane/HTML/editsignature.html"></bt:Url>
-          <bt:Url id="Autorun" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/src/runtime/HTML/autorunweb.html"></bt:Url>
-          <bt:Url id="runtimeJs" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/src/runtime/Js/autorunshared.js"></bt:Url>
+          <bt:Url id="residUrl0" DefaultValue="https://aaron-tully.github.io/esau-signature/src/taskpane/HTML/editsignature.html"></bt:Url>
+          <bt:Url id="Autorun" DefaultValue="https://aaron-tully.github.io/esau-signature/src/runtime/HTML/autorunweb.html"></bt:Url>
+          <bt:Url id="runtimeJs" DefaultValue="https://aaron-tully.github.io/esau-signature/src/runtime/Js/autorunshared.js"></bt:Url>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="residGL0" DefaultValue="Signature Injector"></bt:String>
