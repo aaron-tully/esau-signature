@@ -7,7 +7,7 @@ function get_template_A_str(user_info)
 
   str += "<div>";
   str +=   is_valid_data(user_info.greeting) ? `<div style='margin-bottom: 10px;'>${user_info.greeting},</div>` : "";
-  str +=   "<div><strong style='color: #FF4370;'>" + user_info.name + "</strong>";
+  str +=   "<div><strong style='color: #F6688A;'>" + user_info.name + "</strong>";
   str +=   is_valid_data(user_info.pronoun) ? ` ${user_info.pronoun}` : "";
   str +=   "</div>";
   str +=   is_valid_data(user_info.job) ? `<div>${user_info.job}</div>` : "";
@@ -30,7 +30,7 @@ function get_template_B_str(user_info)
   let str = "";
   str += "<div>";
   str +=   is_valid_data(user_info.greeting) ? `${user_info.greeting},<br>` : "";
-  str +=   "<div><strong style='color: #FF4370;>" + user_info.name + "</strong>";
+  str +=   "<div><strong style='color: #F6688A;>" + user_info.name + "</strong>";
   str +=   is_valid_data(user_info.pronoun) ? ` ${user_info.pronoun}` : "";
   str +=   "</div>";
   str +=   is_valid_data(user_info.job) ? `<div>${user_info.job}</div>` : "";
