@@ -114,13 +114,13 @@ function test_template_B()
 	insert_signature(str);
 }
 
-function test_template_C()
+/* function test_template_C()
 {
 	let str = get_template_C_str(_user_info);
 	console.log("test_template_C - " + str);
 
 	insert_signature(str);
-}
+} */
 
 function navigate_to_taskpane2()
 {
