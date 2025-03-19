@@ -36,7 +36,7 @@ function save_signature_settings()
 	Office.context.roamingSettings.set('reply', $("#reply option:selected").val());
 	Office.context.roamingSettings.set('forward', $("#forward option:selected").val());
 
-	Office.context.roamingSettings.set('override_olk_signature', $("#checkbox_sig").prop('checked'));
+	Office.context.roamingSettings.set('override_olk_signature', true);
 
 	save_user_settings_to_roaming_settings();
 
